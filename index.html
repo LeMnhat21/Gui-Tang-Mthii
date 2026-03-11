@@ -155,7 +155,7 @@
 
         <div id="step1">
             <img src="hello kitty GIF.gif" class="hello-kitty-img">
-            <h2 id="mainTitle">Bạn có muốn làm người yêu tớ không? ❤️</h2>
+            <h2 id="mainTitle">Bạn có muốn làm người iuu của tuii hămmm? ❤️</h2>
             <div class="btn-group">
                 <button id="btnYes" onclick="goStep(2)">Đồng ý</button>
                 <button id="btnNo" onmouseover="dodge()" onclick="dodge()">Từ chối</button>
@@ -225,8 +225,8 @@
                 
                 const title = document.getElementById('mainTitle');
                 if(dodgeCount === 4) title.innerText = "Ơ kìa, đừng né mà! 🥺";
-                if(dodgeCount === 8) title.innerText = "Cậu định từ chối tớ thật sao? 💔";
-                if(dodgeCount === 11) title.innerText = "Chấp nhận đi nàooooo";
+                if(dodgeCount === 8) title.innerText = "Bạn định từ chối tuiii thật saoo? 💔";
+                if(dodgeCount === 11) title.innerText = "Chấp nhận đi mòoooo";
             } else {
                 document.getElementById('btnNo').style.display = 'none';
             }
@@ -256,7 +256,7 @@
             clicks++;
             const msg = document.getElementById('msg');
             if (clicks < 6) {
-                msg.innerText = "Đang duyệt thủ tục lý hồ sơ... Bấm thêm xem! (" + clicks + "/6)";
+                msg.innerText = "Đang duyệt thủ tục và xử lý hồ sơ... Bấm thêm xem! (" + clicks + "/6)";
             } else {
                 // CHỈNH SỬA TẠI ĐÂY: Thay đổi ảnh khi hoàn tất 6 lần bấm
                 // Bạn hãy thay 'anh-ket-hon.gif' bằng tên file ảnh bạn muốn hiện ra cuối cùng
